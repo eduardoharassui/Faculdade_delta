@@ -1,0 +1,13 @@
+public class MyClass {
+    public static void main(String args[]) {
+     
+     
+     int[] numerosprimos = new int[]{3,  5,  2,  7,  13,  17};
+     
+   
+   for(int i=0; i < 6; i++){
+       System.out.println(numerosprimos[i]);
+   }
+    }
+    
+}

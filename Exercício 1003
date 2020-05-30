@@ -7,7 +7,7 @@ public class MyClass {
   int B = 10;
   Scanner sc = new Scanner(System.in);
     
-  System.out.println("o resultado da soma é " + (A + B));
+  System.out.println("SOMA =  " + (A + B));
   
 
     }

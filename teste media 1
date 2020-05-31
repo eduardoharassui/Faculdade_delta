@@ -1,12 +1,16 @@
 import java.util.Scanner;
 public class MyClass {
     public static void main(String args[]) {
-      double A, B, MEDIA;
+      
+      Scanner input = new Scanner(System.in);
+      
+      double A = input.nextDouble();
+      double B = input,nextDouble();
+      double Media = ((A * 3.5) + (b * 7.5)) / 11.0;
+      
+      System,out.printf("MEDIA = %.5f%n", MEDIA);
+      
  
-     scanf("%lf %lf", &A, &B);
      
-     MEDIA = A*3.5 + B*7.5)/11
-     
-     printf("MEDIA = %.5lf\n ", MEDIA);
     }
 }
